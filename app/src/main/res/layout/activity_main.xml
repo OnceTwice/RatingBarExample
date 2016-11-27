@@ -18,25 +18,28 @@
         android:text="rating : " />
 
     <RatingBar
-        android:id="@+id/ratingBar2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:isIndicator="true"
-        android:rating="2" />
-
-    <RatingBar
         android:id="@+id/ratingBar3"
         style="?android:attr/ratingBarStyleIndicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numStars="4"
-        android:rating="2.5" />
+        android:numStars="10"
+        android:rating="3.5" />
 
     <RatingBar
         android:id="@+id/ratingBar4"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:numStars="10"
+        android:rating="3.5" />
+
+    <RatingBar
+        android:id="@+id/ratingBar5"
         style="?android:attr/ratingBarStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:numStars="10"
-        android:rating="7" />
+        android:rating="3.5" />
+
 </LinearLayout>

@@ -12,10 +12,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ((RatingBar)findViewById( R.id.ratingBar1)).setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
+        ((RatingBar)findViewById(R.id.ratingBar1)).setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
             @Override
             public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
-                ((TextView)findViewById(R.id.textview)).setText("rating:" + rating);
+                ((TextView)findViewById(R.id.textview)).setText("rating : " + rating);
             }
         });
     }
